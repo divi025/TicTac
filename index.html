@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<footer class="credit">
+  Made with ❤️ by <span>Divyansh Awasthi</span>
+</footer>
+
+<body>
+    <div class="msg-container">
+        <p id="msg">Start Play!</p>
+         <button id="newbtn">New game</button>
+        
+    </div>
+    <main>
+        <h1><b>TIC-TAC-TOE</b></h1>
+        <div class="container">
+            <div class ="game">
+                <button class="box"></button>
+                 <button class="box"></button>
+                  <button class="box"></button>
+                   <button class="box"></button>
+                    <button class="box"></button>
+                     <button class="box"></button>
+                      <button class="box"></button>
+                       <button class="box"></button>
+                        <button class="box"></button>
+            </div>
+        </div>
+        <button id="resetbtn">reset game</button>
+       
+    </main>
+    <audio id="moveSound" preload="auto">
+        <source src="move.mp3" type="audio/mpeg">
+        <source src="move.wav" type="audio/wav">
+    </audio>
+    <audio id="winSound" preload="auto">
+        <source src="win.mp3" type="audio/mpeg">
+        <source src="win.wav" type="audio/wav">
+    </audio>
+    <script src = "app.js"></script>
+</body>
+</html>
